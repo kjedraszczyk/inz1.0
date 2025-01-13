@@ -5,6 +5,8 @@ import random
 from ultralytics import YOLO
 from tracker import Tracker
 
+#the important change i made 
+
 video_path = 'c:/Users/konra/Desktop/mk2.mp4'
 
 cap = cv2.VideoCapture(video_path)
